@@ -1,0 +1,7 @@
+{
+    "modules": "common",
+    "blacklist": ["strict"],
+    "optional": ["runtime", "regenerator"],
+    "loose": true,
+    "stage": 0
+}

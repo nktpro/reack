@@ -1,0 +1,16 @@
+.app {
+    // Notice how this image will be inlined automatically in the output CSS thanks to Webpack's url-loader
+    background: gray url(../assets/images/logo-small.png) no-repeat left center;
+    color: #FFF;
+    padding: 50px;
+    transform: rotateZ(-45deg); // Will be auto-prefixed thanks for autoprefix-loader
+    box-shadow: 2px 2px 2px #000;  // Will be auto-prefixed if needed thanks for autoprefix-loader
+}
+
+.app-logo {
+    // Notice how this image will be managed by Webpack when building for production
+    background: gray url(../assets/images/logo-big.png) no-repeat left center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
