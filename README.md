@@ -28,6 +28,8 @@ Then load the app up on Chrome. Afterwards make any changes and simply reload th
 Build for production (--path argument is optional, default to ./build)
 
     gulp --path path/to/build
+    
+All the magics are inside gulpfile.js. Read through and enhance it as you go.
 
 
   
