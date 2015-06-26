@@ -18,6 +18,7 @@ class App extends React.Component {
         await Promise.delay(1000);
         console.log('two');
         await Promise.delay(1000);
+        throw new Error('Die here');
         console.log('three');
     }
 
@@ -33,7 +34,7 @@ class App extends React.Component {
             of the Logo component). Webpack takes care of this and only output a single copy at the end.
             */}
             <img width="200" src={require('../assets/images/logo-big.png')}/>
-            
+
             <Logo />
 
             Hello World

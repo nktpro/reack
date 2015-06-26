@@ -108,7 +108,7 @@ gulp.task('dev', function() {
             path: path.join(__dirname, 'public')
         },
         entry      : {
-            index: ['webpack/hot/dev-server', './src/Main.jsx']
+            index: ['webpack/hot/dev-server', './src/polyfill.js', './src/Main.jsx']
         }
     });
 
